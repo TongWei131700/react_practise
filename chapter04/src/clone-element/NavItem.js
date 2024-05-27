@@ -2,7 +2,7 @@ function NavItem(props){
   return (
     <>
     <button onClick={props.onClick}>Click Me</button>
-    <pre>
+    <!--
 {`function NavItem(props){
   return (
     <button onClick={props.onClick}>Click Me</button>
@@ -10,7 +10,7 @@ function NavItem(props){
 }
 
 export default NavItem;`}
-    </pre>
+    -->
     </>
   )
 }

@@ -5,7 +5,7 @@ function EventProps(){
     return(
         <>
         <button onClick={logClick}>Click Me</button>
-        <pre>
+        <!--
             {`function EventProps(){
     const logClick=(e)=>{
         console.dir(e);
@@ -16,7 +16,7 @@ function EventProps(){
 }
 
 export default EventProps;`}
-        </pre>
+        -->
         </>
     )
 }

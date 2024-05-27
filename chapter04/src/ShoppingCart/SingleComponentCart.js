@@ -30,7 +30,7 @@ function Cart(props){
         <button>Checkout</button>
 
     </div>
-    <pre>
+    <!--
 {`import React,{useState} from 'react';
 import styles from './Cart.css.js';
 
@@ -70,7 +70,7 @@ Cart.defaultProps = {
 };
 
 export default Cart;`}
-    </pre>
+    -->
     </>
   );
 }

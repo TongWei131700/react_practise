@@ -36,7 +36,7 @@ function ScrollToDemo(){
       <button onClick={() => ScrollToElement(bookStart)}>
         Scroll to the Beginning
       </button>
-      <pre>
+      <!--
         {`import {useRef} from 'react';
 
 const ScrollToElement = (ref)=>{window.scrollTo(0,ref.current.offsetTop)};
@@ -82,7 +82,7 @@ function ScrollToDemo(){
 
 export default ScrollToDemo;
 `}
-      </pre>
+      -->
     </>
   );
 

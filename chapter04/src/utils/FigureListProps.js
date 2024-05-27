@@ -10,7 +10,7 @@ class FigureList extends Component {
         <BasicFigureProps filename="images/cat.png" caption="Murray" />
         <BasicFigureProps filename="images/chickens.png" caption="Lefty and Ginger" />
       </div>
-      <pre>
+      <!--
 {`import {Component} from 'react';
 import BasicFigureProps from './BasicFigureProps';
 
@@ -26,7 +26,7 @@ class FigureList extends Component {
   }
 }
 export default FigureList;`}
-      </pre>
+      -->
       </>
     )
   }

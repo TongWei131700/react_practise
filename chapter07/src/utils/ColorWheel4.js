@@ -21,7 +21,7 @@ class ColorWheel extends Component {
       <>
         <div style={wheelStyle}></div>
         <input onChange={this.changeColor} value={this.state.currentColor} />
-        <pre>
+        <!--
             {`import {Component} from 'react';
 
 class ColorWheel extends Component {
@@ -51,7 +51,7 @@ class ColorWheel extends Component {
 }
 
 export default ColorWheel;`}
-        </pre>
+        -->
       </>
     )
   }

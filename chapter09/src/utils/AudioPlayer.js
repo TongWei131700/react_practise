@@ -21,9 +21,9 @@ class AudioPlayer extends Component {
         <>
         <audio ref={this.mediaFile}>
           <source src="/music/thebestsongever.mp3" type="audio/mpeg" />
-        </audio><br />
+        </audio><br/>
         <button onClick={this.playToggle}>Play/Pause</button>
-        <pre>
+        <!--
           {`import React,{Component} from 'react';
 
 class AudioPlayer extends Component {
@@ -56,7 +56,7 @@ class AudioPlayer extends Component {
 }
 
 export default AudioPlayer;`}
-        </pre>
+        -->
         </>
       );
   }

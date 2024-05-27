@@ -22,7 +22,7 @@ class LeakyCounter extends Component{
         return (
         <>
         <p>The current count is: {this.state.count}.</p>
-        <pre>
+        <!--
 {`import {Component} from 'react';
 
 class LeakyCounter extends Component{
@@ -48,7 +48,7 @@ class LeakyCounter extends Component{
     }
 }
 export default LeakyCounter;`}
-</pre></>);
+--></>);
     }
 }
 export default LeakyCounter;

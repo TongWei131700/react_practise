@@ -9,7 +9,7 @@ function App() {
       <h1>Hello {personName}</h1>
       <input type="text" onChange={(e) => setPersonName(e.target.value)} />
 
-      <pre>{`import React from 'react';
+      <!--{`import React from 'react';
 import './App.css';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
   );
 }
 
-export default App;`}</pre>
+export default App;`}-->
     </div>
   );
 }

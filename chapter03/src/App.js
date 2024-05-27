@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './resource/Welcome'
+// import Welcome from './resource/Welcome';
+import {MyFancyComponent} from "./resource";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      <Welcome/>
+      <MyFancyComponent/>
       </header>
     </div>
   );

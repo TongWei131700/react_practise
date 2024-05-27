@@ -17,7 +17,7 @@ class Foo extends React.Component{
       <button type="button" onClick={this.handleClick}>
         Click Me
       </button>
-    <pre>
+    <!--
 {`import React from 'react';
 
 class Foo extends React.Component{
@@ -41,7 +41,7 @@ class Foo extends React.Component{
 }
     
 export default Foo;`}
-    </pre>
+    -->
     </>
     );
   }

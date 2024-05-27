@@ -11,7 +11,7 @@ function Counter() {
         Add 1
       </button>
     </div>
-    <pre>
+    <!--
 {`import {useState} from 'react';
 
 function Counter() {
@@ -28,7 +28,7 @@ function Counter() {
 }
 
 export default Counter;`}
-    </pre>
+    -->
     </>
   );
 }

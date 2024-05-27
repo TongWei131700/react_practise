@@ -13,7 +13,7 @@ class CounterClass extends Component {
     return(
       <>
       <button onClick={this.increment}>{this.state.count}</button>
-      <pre>
+      <!--
 {`import {Component} from 'react';
 
 class CounterClass extends Component {
@@ -33,7 +33,7 @@ class CounterClass extends Component {
 }
 export default CounterClass;
 `}
-      </pre>
+      -->
       </>
     )
   }

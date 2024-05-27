@@ -6,7 +6,7 @@ const UserProfile = createClass({
     return (
     <>
       <h1>User Profile</h1>
-      <pre>
+      <!--
 {`import React from 'react';
 import createClass from 'create-react-class';
 
@@ -19,7 +19,7 @@ const UserProfile = createClass({
 });
 
 export default UserProfile;`}
-      </pre>
+      -->
     </>
     );
   }

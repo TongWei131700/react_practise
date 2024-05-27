@@ -23,7 +23,7 @@ export const ToDoFunctionSimple = (props)=>{
     </button>
     {currentTodos}
     </form>
-    <pre>
+    <!--
 {`import {useState} from 'react';
 
 export const ToDoFunctionSimple = (props)=>{
@@ -50,7 +50,7 @@ export const ToDoFunctionSimple = (props)=>{
     </form>
   );
 }`}
-    </pre>
+    -->
     </>
   );
 }

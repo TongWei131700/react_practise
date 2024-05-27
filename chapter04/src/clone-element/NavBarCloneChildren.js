@@ -9,7 +9,7 @@ function NavBar(props){
           onClick: props.onClick })   
       })}
     </div>
-    <pre>
+    <!--
 {`import React from 'react';
 
 function NavBar(props){
@@ -25,7 +25,7 @@ function NavBar(props){
 
 export default NavBar;
 `}
-    </pre>
+    -->
     </>
    ) 
 }

@@ -6,7 +6,7 @@ function MyForm(props){
         <input type="text" id="phoneNumber" />
         <button>Submit</button>
       </form>
-    <pre>
+    <!--
         {`function MyForm(props){
     return (
       <form onSubmit={props.handleSubmit}>
@@ -17,7 +17,7 @@ function MyForm(props){
     );
   }
   export default MyForm;`}
-    </pre>
+    -->
     </>
     );
   }

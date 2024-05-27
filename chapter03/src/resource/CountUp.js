@@ -8,7 +8,7 @@ function CountUp(){
       <button onClick={()=>setCount(count+1)}>Add One</button>
       {count}
     </div>
-    <pre>
+    <!--
 {`import {useState} from 'react';
 
 function CountUp(){
@@ -22,7 +22,7 @@ function CountUp(){
 }
 
 export default CountUp;`}
-    </pre>
+    -->
     </>
   );
 }

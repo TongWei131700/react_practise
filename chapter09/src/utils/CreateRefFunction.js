@@ -7,7 +7,7 @@ function TextReader(props) {
   return (
       <>
     <textarea ref={textView} value={props.bookText} />
-    <pre>
+    <!--
         {`import {useRef} from 'react';
 
 function TextReader(props) {
@@ -22,7 +22,7 @@ function TextReader(props) {
 
 export default TextReader;
 `}
-    </pre>
+    -->
     </>
   );
 

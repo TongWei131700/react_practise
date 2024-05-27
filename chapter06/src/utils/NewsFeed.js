@@ -13,7 +13,7 @@ class NewsFeed extends Component {
     return(
       <>
         <h1>Headlines for {this.state.date.toLocaleString()}</h1>
-        <pre>
+        <!--
 {`import {Component} from 'react'
 
 class NewsFeed extends Component {
@@ -35,7 +35,7 @@ class NewsFeed extends Component {
 }
 
 export default NewsFeed;`}
-        </pre>
+        -->
       </>
     )
   }

@@ -10,7 +10,7 @@ export default function ThingsILike(props){
             <li><Joke id="1" /></li>
         </ul>
       </ThingsThatAreFunny>
-      <pre>
+      <!--
 {`import ThingsThatAreFunny from './ThingsThatAreFunny';
 import Joke from './Joke';
 
@@ -24,7 +24,7 @@ export default function ThingsILike(props){
       </ThingsThatAreFunny>
     )
 }`}
-      </pre>
+      -->
       </>
     )
   }  

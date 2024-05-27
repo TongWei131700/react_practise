@@ -5,7 +5,7 @@ function App(){
     return (
       <>
         <PropsMutator theNumber = {theNumber} setTheNumber = {setTheNumber} />
-      <pre>
+      <!--
 {`import {useState} from 'react';
 
 function App(){
@@ -37,7 +37,7 @@ function PropsMutator(props){
 
 export default App;
 `}
-      </pre>
+      -->
       </>
     )
 }

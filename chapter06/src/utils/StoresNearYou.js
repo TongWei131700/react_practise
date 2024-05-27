@@ -16,7 +16,7 @@ function StoresNearYou(props){
           longitude={props.longitude || "122.0322"} 
         />
       </div>
-      <pre>
+      <!--
 {`import Map from './Map';
 import StoreList from './StoreList';
 
@@ -41,7 +41,7 @@ function StoresNearYou(props){
 
 export default StoresNearYou;
 `}
-      </pre>
+      -->
     </>
   )
 }

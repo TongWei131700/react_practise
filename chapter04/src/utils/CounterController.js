@@ -14,7 +14,7 @@ function CounterController() {
       {displayCounter ? <LeakyCounter /> : null}
       <button onClick={toggleCounter}>Toggle Count</button>
     </div>
-    <pre>
+    <!--
 {`import {useState} from 'react';
 import LeakyCounter from './LeakyCounter';
 
@@ -34,7 +34,7 @@ function CounterController() {
 }
 export default CounterController;
 `}
-    </pre>
+    -->
     </>
   );
 }

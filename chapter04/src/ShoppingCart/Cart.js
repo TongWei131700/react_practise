@@ -17,7 +17,7 @@ function Cart(props){
         <CheckoutButton />
 
     </div>
-    <pre>
+    <!--
 {`import React from 'react';
 import CartItems from './CartItems';
 import DisplayTotal from './DisplayTotal';
@@ -40,7 +40,7 @@ function Cart(props){
 }
 
 export default Cart;`}
-    </pre>
+    -->
     </>
   );
 }

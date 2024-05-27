@@ -23,7 +23,7 @@ function ToDoFunction(props){
     </button>
     {currentTodos}
     </form>
-<pre>
+<!--
 {`import React,{useState} from 'react';
 
 function ToDoFunction(props){
@@ -52,7 +52,7 @@ function ToDoFunction(props){
 }
     
 export default ToDoFunction;`}
-</pre>
+-->
     </>
   );
 }

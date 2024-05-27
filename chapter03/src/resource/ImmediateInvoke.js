@@ -4,7 +4,7 @@ function ImmediateInvoke(){
         <div>
           {(()=><h1>The Header</h1>)()}
         </div>
-        <pre>
+        <!--
 {`function ImmediateInvoke(){
     return(
         <div>
@@ -14,7 +14,7 @@ function ImmediateInvoke(){
       
 }
 export default ImmediateInvoke;`}
-        </pre>
+        -->
         </>
       );
       

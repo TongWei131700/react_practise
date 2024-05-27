@@ -3,7 +3,7 @@ function WarningButton(){
     return (
     <>
       <button onClick={()=>{alert('Are you sure?');}}>Don't Click Here</button>
-      <pre>
+      <!--
           {`function WarningButton(){
 
 return (
@@ -13,7 +13,7 @@ return (
 }
 
 export default WarningButton;    `}
-      </pre>
+      -->
     </>
     );
     

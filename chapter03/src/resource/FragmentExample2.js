@@ -3,7 +3,7 @@ function MyComponent(){
       <>
         <h1>The heading</h1>
         <h2>The subheading</h2>
-        <pre>
+        <!--
 {`function MyComponent(){
     return(
       <>
@@ -15,7 +15,7 @@ function MyComponent(){
   
 export default MyComponent;
 `}
-        </pre>
+        -->
       </>
     );
   }

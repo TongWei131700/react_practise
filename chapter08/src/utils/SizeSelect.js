@@ -8,7 +8,7 @@ function SizeSelect(props){
         <option value="lg">Large</option>
         <option value="xl">Extra Large</option>
       </select>
-      <pre>
+      <!--
           {`function SizeSelect(props){
     return(
       <select name="size" value={props.size} onChange={props.changeSize}>
@@ -23,7 +23,7 @@ function SizeSelect(props){
   
   export default SizeSelect;
   `}
-      </pre>
+      -->
       </>
     );
   }

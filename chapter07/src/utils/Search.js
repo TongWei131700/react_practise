@@ -12,7 +12,7 @@ function Search(props){
       <>
         <input type="text" value={term} onChange={(e)=>{updateTerm(e.target.value)}} /><br />
         You're searching for: {term}
-        <pre>
+        <!--
           {`import {useState} from 'react';
 
 function Search(props){
@@ -33,7 +33,7 @@ function Search(props){
   
   export default Search;
   `}
-        </pre>
+        -->
       </>
     );
   }

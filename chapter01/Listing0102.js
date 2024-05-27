@@ -1,7 +1,7 @@
 
 function Listing0102(){
   return (
-<pre>
+<!--
 {`class HelloWorld extends React.Component {
   constructor(props) {
     super(props);
@@ -15,7 +15,7 @@ function Listing0102(){
 
 const domContainer = document.querySelector('#app');
 ReactDOM.render(React.createElement(HelloWorld), domContainer);`}
-</pre>
+-->
   )
 }
 

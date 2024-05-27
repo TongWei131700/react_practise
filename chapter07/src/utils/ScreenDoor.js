@@ -13,7 +13,7 @@ class ScreenDoor extends Component {
         <button onClick={()=>this.setState({isOpen:!this.state.isOpen})}>
             {this.state.isOpen?'Close the Door':'Open the Door'}
         </button>
-        <pre>
+        <!--
           {`import {Component} from 'react';
 
 class ScreenDoor extends Component {
@@ -34,7 +34,7 @@ class ScreenDoor extends Component {
   
   export default ScreenDoor;
   `}
-        </pre>
+        -->
         </>
       )
     }

@@ -8,7 +8,7 @@ export default function Farm(props){
       <p>On his farm, he had some {props.animals[1]}.</p>
       <p>On his farm, he had some {props.animals[2]}.</p>
     </div>
-    <pre>
+    <!--
 {`export default function Farm(props){
   
   return (
@@ -22,7 +22,7 @@ export default function Farm(props){
 
 }
 `}
-    </pre>
+    -->
     </>
     )
   

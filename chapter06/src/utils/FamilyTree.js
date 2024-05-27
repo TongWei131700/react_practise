@@ -9,7 +9,7 @@ class FamilyTree extends Component {
             <>
             <div><h1>{this.props.father.firstName}</h1>
             </div>
-            <pre>
+            <!--
 {`import {Component} from 'react';
 import {PropTypes} from 'prop-types';
 import Person from './Person';
@@ -30,7 +30,7 @@ FamilyTree.propTypes = {
 }
 
 export default FamilyTree;`}
-            </pre>
+            -->
             </>
         )
     }

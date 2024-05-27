@@ -19,7 +19,7 @@ class StoresNearYou4 extends Component{
             longitude={this.props.longitude} 
           />
         </div>
-        <pre>
+        <!--
 {`import {Component} from 'react';
 import Map from './Map';
 import StoreList from './StoreList';
@@ -53,7 +53,7 @@ StoresNearYou4.defaultProps = {
   
 export default StoresNearYou4;
 `}
-        </pre>
+        -->
       </>
     )
   }

@@ -5,7 +5,7 @@ function LogInput(){
     return(
         <>
         <input onChange={logChange} />
-        <pre>
+        <!--
             {`function LogInput(){
     const logChange=(e)=>{
         console.dir(e);
@@ -16,7 +16,7 @@ function LogInput(){
 }
 
 export default LogInput;`}
-        </pre>
+        -->
         </>
     )
 }

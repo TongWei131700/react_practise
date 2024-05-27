@@ -9,7 +9,7 @@ function App(props){
       <NavItem />
       <NavItem />
     </NavBar>
-    <pre>
+    <!--
 {`import NavBar from './NavBar';
 import NavItem from './NavItem';
 
@@ -24,7 +24,7 @@ function App(props){
 
 export default App;
 `}
-    </pre>
+    -->
     </>);
 }
 

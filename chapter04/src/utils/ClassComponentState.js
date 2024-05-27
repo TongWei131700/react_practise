@@ -18,7 +18,7 @@ class ClassComponentState extends Component {
           Add 1
         </button>
       </div>
-      <pre>
+      <!--
 {`import {Component} from 'react';
 
 class ClassComponentState extends Component {
@@ -43,7 +43,7 @@ class ClassComponentState extends Component {
 }
 
 export default ClassComponentState;`}
-      </pre>
+      -->
       </>
     );
   }

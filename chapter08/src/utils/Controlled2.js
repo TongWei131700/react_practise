@@ -16,7 +16,7 @@ function SignUp(props){
         </label>
       </form><br />
       Your email address: {emailAddress}
-      <pre>
+      <!--
         {`import {useState} from 'react';
 
 function SignUp(props){
@@ -41,7 +41,7 @@ function SignUp(props){
 
 export default SignUp;
 `}
-      </pre>
+      -->
     </>
   )
 }

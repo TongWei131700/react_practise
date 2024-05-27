@@ -19,7 +19,7 @@ class CoffeeMachine extends Component {
         <>
         The Coffee Maker is {this.state.brewing?'on':'off'}.<br />
         <button onClick={this.toggleBrewing}>toggle brewing state</button>
-        <pre>
+        <!--
           {`import {Component} from 'react';
 
 class CoffeeMachine extends Component {
@@ -48,7 +48,7 @@ class CoffeeMachine extends Component {
 
 export default CoffeeMachine;
   `}
-        </pre>
+        -->
         </>
       );
     }

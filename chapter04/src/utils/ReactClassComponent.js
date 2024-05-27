@@ -10,7 +10,7 @@ class UserProfile extends React.Component {
     return (
     <>
       <h1>User Profile</h1>
-    <pre>
+    <!--
 {`import React from 'react';
 
 class UserProfile extends React.Component {
@@ -27,7 +27,7 @@ class UserProfile extends React.Component {
 };
 
 export default UserProfile;`}
-    </pre>
+    -->
     </>
     );
   }

@@ -8,7 +8,7 @@ function Welcome({loggedIn}){
         Note: if you don't see the welcome messsage,
         you're not logged in.
       </div>
-      <pre>
+      <!--
 {`import Header from './Header';
 
 function Welcome({loggedIn}){
@@ -22,7 +22,7 @@ function Welcome({loggedIn}){
   }
   
 export default Welcome;`}
-      </pre>
+      -->
     </>
     )
   }

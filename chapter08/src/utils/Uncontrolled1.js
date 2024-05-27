@@ -5,7 +5,7 @@ function SignUp(props){
       <input type="text" name="emailAddress" />
       <button>Sign up for our newsletter</button>
     </form>
-    <pre>
+    <!--
       {`function SignUp(props){
   return(
     <form>
@@ -17,7 +17,7 @@ function SignUp(props){
 
 export default SignUp;
 `}
-    </pre>
+    -->
     </>
   )
 }

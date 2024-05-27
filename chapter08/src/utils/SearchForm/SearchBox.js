@@ -9,7 +9,7 @@ function SearchBox(){
     <>
       <SearchInput searchTerm = {searchTerm} setSearchTerm = {setSearchTerm} />
       <SearchResults searchTerm = {searchTerm} />
-{/*      <pre>*/}
+{/*      <!--*/}
 {/*        {`import {useState} from 'react';*/}
 {/*import SearchInput from './SearchInput';*/}
 {/*import SearchResults from './SearchResults';*/}
@@ -25,7 +25,7 @@ function SearchBox(){
 {/*  );*/}
 {/*}*/}
 {/*export default SearchBox;`}*/}
-{/*      </pre>*/}
+{/*      -->*/}
     </>
   );
 }

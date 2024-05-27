@@ -8,7 +8,7 @@ function Welcome(){
     <div>
       {header}
     </div>
-<pre>
+<!--
 {`import Header from './Header';
 
 function Welcome(){
@@ -21,7 +21,7 @@ function Welcome(){
   );
 }
 export default Welcome;
-`}</pre>
+`}-->
     </>
   );
 }

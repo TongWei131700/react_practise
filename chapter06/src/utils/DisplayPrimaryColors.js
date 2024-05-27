@@ -4,7 +4,7 @@ function DisplayPrimaryColor(props){
   return(
     <>
     <p>You picked: {props.primaryColor}</p>
-    <pre>
+    <!--
 {`import PropTypes from 'prop-types';
 
 function DisplayPrimaryColor(props){
@@ -19,7 +19,7 @@ DisplayPrimaryColor.propTypes = {
 
 export default DisplayPrimaryColor;
 `}
-    </pre>
+    -->
     </>
   )
 }

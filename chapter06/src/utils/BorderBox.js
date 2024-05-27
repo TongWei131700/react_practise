@@ -4,7 +4,7 @@ function BorderBox(props){
   return(
     <>
     <div style={{border:"1px solid black"}}>{props.children}</div>
-    <pre>
+    <!--
 {`import PropTypes from 'prop-types';
 
 function BorderBox(props){
@@ -19,7 +19,7 @@ BorderBox.propTypes = {
 
 export default BorderBox;
 `}
-    </pre>
+    -->
     </>
   )
 }

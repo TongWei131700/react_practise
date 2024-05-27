@@ -5,7 +5,7 @@ function MyComponent(){
     <Fragment>
       <h1>The heading</h1>
       <h2>The subheading</h2>
-    <pre>
+    <!--
 {`import {Fragment} from 'react';
 
 function MyComponent(){
@@ -19,7 +19,7 @@ function MyComponent(){
 
 export default MyComponent;
 `}
-    </pre>
+    -->
     </Fragment>
   );
 }

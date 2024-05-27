@@ -9,7 +9,7 @@ const [headlines,setHeadlines] = useState([]);
     <>
       <h1>Headlines for {date.toLocaleString()}</h1>
       ...
-      <pre>
+      <!--
 {`import {useState} from 'react'
 
 function NewsFeed3(props) {
@@ -26,7 +26,7 @@ const [headlines,setHeadlines] = useState([]);
 }
 
 export default NewsFeed3;`}
-      </pre>
+      -->
     </>
   )
 }

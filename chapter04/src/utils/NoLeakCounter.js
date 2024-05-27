@@ -26,7 +26,7 @@ class NoLeakCounter extends Component{
         return (
         <>
         <p>The current count is: {this.state.count}.</p>
-        <pre>
+        <!--
 {`import {Component} from 'react';
 
 class NoLeakCounter extends Component{
@@ -56,7 +56,7 @@ class NoLeakCounter extends Component{
     }
 }
 export default NoLeakCounter;`}
-        </pre>
+        -->
         </>);
     }
 }

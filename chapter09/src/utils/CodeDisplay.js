@@ -26,7 +26,7 @@ class CodeDisplay extends Component {
         <input value={this.props.yourCode} 
                ref={this.codeField} /> {this.state.message}<br />
         <button onClick={this.copyCode}>Copy your Code</button>
-        <pre>
+        <!--
           {`import React,{Component} from 'react';
 
 class CodeDisplay extends Component {
@@ -62,7 +62,7 @@ class CodeDisplay extends Component {
 }
 
 export default CodeDisplay;`}
-        </pre>
+        -->
       </>
     );
   }

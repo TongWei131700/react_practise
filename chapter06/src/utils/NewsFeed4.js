@@ -8,7 +8,7 @@ const [state] = useState({date:new Date(),headlines:[]});
     <>
       <h1>Headlines for {state.date.toLocaleString()}</h1>
       ...
-      <pre>
+      <!--
 {`import {useState} from 'react'
 
 function NewsFeed4(props) {
@@ -25,7 +25,7 @@ const [state] = useState({date:new Date(),headlines:[]});
 
 export default NewsFeed4;
 `}
-      </pre>
+      -->
     </>
   )
 }

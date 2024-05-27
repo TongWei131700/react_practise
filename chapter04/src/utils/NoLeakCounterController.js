@@ -14,7 +14,7 @@ function NoLeakCounterController() {
       {displayCounter ? <NoLeakCounter /> : null}
       <button onClick={toggleCounter}>Toggle Count</button>
     </div>
-    <pre>
+    <!--
 {`import {useState} from 'react';
 import NoLeakCounter from './NoLeakCounter';
 
@@ -34,7 +34,7 @@ function NoLeakCounterController() {
 }
 export default NoLeakCounterController;
 `}
-    </pre>
+    -->
     </>
   );
 }

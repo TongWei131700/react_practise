@@ -5,7 +5,7 @@ class PureComponentExample extends React.PureComponent {
       return (
       <>
       <div>foo</div>
-      <pre>
+      <!--
 {`import React from 'react';
 
 class PureComponentExample extends React.PureComponent {
@@ -15,7 +15,7 @@ class PureComponentExample extends React.PureComponent {
 }
 
 export default PureComponentExample;`}
-      </pre>
+      -->
       </>);
     }
 }

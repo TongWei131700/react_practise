@@ -4,7 +4,7 @@ function WelcomeMessage(props){
   return (
   <>
   <p>Welcome back, {props.firstName}!</p>
-  <pre>
+  <!--
 {`import PropTypes from 'prop-types';
 
 function WelcomeMessage(props){
@@ -16,7 +16,7 @@ WelcomeMessage.propTypes = {
 }
 
 export default WelcomeMessage;`}
-  </pre>
+  -->
   </>);
 }
   

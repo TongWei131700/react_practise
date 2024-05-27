@@ -21,7 +21,7 @@ function BlogComment(props){
             <p>All Comments:</p>
             {commentList}
             </form>
-            <pre>
+            <!--
                 {`import {useState,useRef} from 'react';
 
 function BlogComment(props){
@@ -51,7 +51,7 @@ function BlogComment(props){
 
 export default BlogComment;
 `}
-            </pre>
+            -->
         </>
     );
 }

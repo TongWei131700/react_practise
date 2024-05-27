@@ -11,7 +11,7 @@ function SearchBox() {
       <SearchInput term={searchTerm} onChange={setSearchTerm} />
       <SearchResults term={searchTerm} />
     </div>
-    <pre>{`import {useState} from 'react';
+    <!--{`import {useState} from 'react';
 import SearchInput from './SearchInput';
 import SearchResults from './SearchResults';
 
@@ -26,7 +26,7 @@ function SearchBox() {
   )
 }
 
-export default SearchBox;`}</pre>
+export default SearchBox;`}-->
     </>
   )
 }

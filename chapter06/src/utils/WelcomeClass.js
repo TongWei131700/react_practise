@@ -11,7 +11,7 @@ class WelcomeClass extends Component {
     return(
     <>
     <h1>Welcome, {this.props.firstName}!</h1>
-    <pre>
+    <!--
 {`import PropTypes from 'prop-types';
 import {Component} from 'react';
 
@@ -28,7 +28,7 @@ class WelcomeClass extends Component {
 
 export default WelcomeClass;
 `}
-    </pre>
+    -->
     </>);
   }
 }

@@ -39,7 +39,7 @@ class ToDoClass extends React.Component{
       </button>
       {currentTodos}
       </form>
-      <pre>
+      <!--
 {`import React from 'react';
 
 class ToDoClass extends React.Component{
@@ -85,7 +85,7 @@ class ToDoClass extends React.Component{
 }
     
 export default ToDoClass;`}
-      </pre>
+      -->
       </>
     );
   }

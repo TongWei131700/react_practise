@@ -9,7 +9,7 @@ export default function Farms(){
       <Farm
         farmer="Mr. Jones"
         animals={['pigs','horses','donkey','goat']} /> 
-    <pre>
+    <!--
 {`import Farm from './Farm';
 
 export default function Farms(){
@@ -24,7 +24,7 @@ export default function Farms(){
     </>
   )
 }`}
-    </pre>
+    -->
     </>
   )
 }

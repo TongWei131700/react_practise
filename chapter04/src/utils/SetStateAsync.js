@@ -19,7 +19,7 @@ class SetStateAsync extends Component {
           Add 1
         </button>
       </div>
-      <pre>
+      <!--
 {`import {Component} from 'react';
 
 class SetStateAsync extends Component {
@@ -45,7 +45,7 @@ class SetStateAsync extends Component {
 }
 
 export default SetStateAsync;`}
-      </pre>
+      -->
       </>
     );
   }

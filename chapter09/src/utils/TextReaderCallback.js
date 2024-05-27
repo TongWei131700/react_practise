@@ -23,7 +23,7 @@ class TextReaderCallback extends Component {
     return (
       <>
         <textarea style={{width:'380px',height:'400px'}} ref={this.setTextViewRef} value={this.props.bookText} />
-      <pre>
+      <!--
         {`import {Component} from 'react';
 
 class TextReaderCallback extends Component {
@@ -54,7 +54,7 @@ class TextReaderCallback extends Component {
 }
 
 export default TextReaderCallback;`}
-      </pre>
+      -->
       </>
     );
   }

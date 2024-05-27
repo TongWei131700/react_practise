@@ -11,7 +11,7 @@ class ShallowCompare extends React.Component {
     return (
       <>
       <div>foo</div>
-      <pre>
+      <!--
 {`import React from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 
@@ -28,7 +28,7 @@ class ShallowCompare extends React.Component {
 
 export default ShallowCompare;
 `}
-      </pre>
+      -->
       </>);
   }
 }

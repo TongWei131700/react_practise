@@ -9,7 +9,7 @@ function SearchInput(props){
       <label>Enter your search term:
         <input type="text" value={props.searchTerm} onChange={handleChange} />
       </label>
-{/*      <pre>*/}
+{/*      <!--*/}
 {/*        {`function SearchInput(props){*/}
 
 {/*const handleChange = (e)=>{*/}
@@ -25,7 +25,7 @@ function SearchInput(props){
 
 {/*export default SearchInput;*/}
 {/*`}*/}
-{/*      </pre>*/}
+{/*      -->*/}
       </>
     );
   }

@@ -24,7 +24,7 @@ class SignUp extends Component{
         </label>
       </form>
       <p>Your email address: {this.state.emailAddress}</p>
-      <pre>
+      <!--
         {`import {Component} from 'react';
 
 class SignUp extends Component{
@@ -58,7 +58,7 @@ class SignUp extends Component{
 
 export default SignUp;
 `}
-      </pre>
+      -->
       </>
     )
   }

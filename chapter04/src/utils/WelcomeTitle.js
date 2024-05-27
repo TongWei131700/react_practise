@@ -3,7 +3,7 @@ import WelcomeMessage from './WelcomeMessage';
 function WelcomeTitle(){
     return <>
     <WelcomeMessage />
-    <pre>
+    <!--
 {`import WelcomeMessage from './WelcomeMessage';
 
 function WelcomeTitle(){
@@ -11,7 +11,7 @@ function WelcomeTitle(){
 }
 
 export default WelcomeTitle;`}
-    </pre>
+    -->
     </>;
 }
 

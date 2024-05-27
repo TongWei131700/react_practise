@@ -4,7 +4,7 @@ function Contact(props){
     return(
         <>
         <li>{props.fullName}: {props.phone}</li>
-        <pre>
+        <!--
 {`import PropTypes from 'prop-types';
 
 function Contact(props){
@@ -27,7 +27,7 @@ phone: isPhoneNumber,
 }
 
 export default Contact;`}
-        </pre>
+        -->
         </>
     )
 }

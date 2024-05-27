@@ -24,7 +24,7 @@ class StoresNearYou3 extends Component{
             longitude={this.props.longitude} 
           />
         </div>
-        <pre>
+        <!--
 {`import {Component} from 'react';
 import Map from './Map';
 import StoreList from './StoreList';
@@ -58,7 +58,7 @@ class StoresNearYou3 extends Component{
 
 export default StoresNearYou3;
 `}
-        </pre>
+        -->
       </>
     )
   }
