@@ -1,6 +1,6 @@
 
 function Listing0102(){
-  return (
+  return (<></>
 <!--
 {`class HelloWorld extends React.Component {
   constructor(props) {
