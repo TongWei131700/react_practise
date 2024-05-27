@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-// import Controlled1 from "./utils/Controlled1";
-import SearchBox from "./utils/SearchForm/SearchBox";
 
 function App() {
   return (
@@ -11,7 +9,6 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <SearchBox/>
         <a
           className="App-link"
           href="https://reactjs.org"
