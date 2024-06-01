@@ -10,7 +10,7 @@ function UsersList(props){
       <>
         <h1>User List</h1>
         path: {location.pathname}
-        <pre>
+        <!--
           {`import { BrowserRouter as Router, Redirect, Route, Switch, Link, useLocation } from "react-router-dom";
 
 function Header(props){
@@ -53,7 +53,7 @@ function App(props){
 }
 
 export default App;`}
-        </pre>
+        -->
       </>);
 }
 

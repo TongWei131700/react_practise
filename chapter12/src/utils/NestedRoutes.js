@@ -36,7 +36,7 @@ function Reports() {
           </Route>
         </Switch>
       </div>
-      <pre>
+      <!--
         {`import {
   BrowserRouter as Router,
   Switch,
@@ -113,7 +113,7 @@ function App() {
 
 export default App;
 `}
-      </pre>
+      -->
       </>
     );
   }

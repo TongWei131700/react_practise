@@ -15,7 +15,7 @@ function WordCount(props){
           <textarea ref={textAreaRef} /><br />
           <button onClick={countWords}>Count Words</button>
           <p>{wordCount} words.</p>
-          <pre>
+          <!--
             {`import {useState,useRef} from 'react';
 
 function WordCount(props){
@@ -38,7 +38,7 @@ function WordCount(props){
 }
 
 export default WordCount;`}
-          </pre>
+          -->
         </>
     )
 }

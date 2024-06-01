@@ -16,7 +16,7 @@ function ComponentProp(props) {
                 )
                 } />
             </Router>
-            <pre>
+            <!--
               {`import React from "react";
 import {
   BrowserRouter as Router, 
@@ -41,7 +41,7 @@ function ComponentProp(props) {
 }
 
 export default ComponentProp;`}
-            </pre>
+            -->
           </>
           
       );

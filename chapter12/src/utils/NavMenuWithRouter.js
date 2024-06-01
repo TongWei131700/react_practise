@@ -13,7 +13,7 @@ function NavMenu(props) {
           <button type="button" onClick={handleClick}>
             Go home
           </button>
-          <pre>{`import React from "react";
+          <!--{`import React from "react";
 import {
   withRouter
 } from "react-router-dom";
@@ -30,7 +30,7 @@ function NavMenu(props) {
       );
 }
 
-export default withRouter(NavMenu);`}</pre>
+export default withRouter(NavMenu);`}-->
           </>
       );
 }

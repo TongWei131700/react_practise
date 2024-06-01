@@ -20,7 +20,7 @@ switch(props.message.type){
   return (
     <>
     <p style={messageStyle}>{props.message.text}</p>
-    <pre>
+    <!--
       {`import {warningStyle,infoStyle,successStyle} from './messageStyles';
 
 function DisplayStatus(props){
@@ -47,7 +47,7 @@ switch(props.message.type){
 
 export default DisplayStatus;
 `}
-    </pre>
+    -->
     </>
   );
 }

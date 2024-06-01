@@ -16,7 +16,7 @@ function NavMenu(props) {
     <button type="button" onClick={handleClick}>
       Go home
     </button>
-    <pre>{`import React from "react";
+    <!--{`import React from "react";
 import {
   useHistory
 } from "react-router-dom";
@@ -36,7 +36,7 @@ function NavMenu(props) {
   );
 }
 
-export default NavMenu;`}</pre></>
+export default NavMenu;`}--></>
   );
 }
 

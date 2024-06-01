@@ -37,7 +37,7 @@ function ShippingAddress(props){
         State: {state}<br />
 
       </form>
-      <pre>
+      <!--
         {`import {useEffect, useState} from 'react';
 
 function ShippingAddress(props){
@@ -81,7 +81,7 @@ function ShippingAddress(props){
 
 export default ShippingAddress;
 `}
-      </pre>
+      -->
       </>
     )
 }

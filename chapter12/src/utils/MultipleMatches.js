@@ -11,7 +11,7 @@ function HomeScreen(props){
         <Login />
       </Route>
     </Router>
-    <pre>
+    <!--
         {`import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function HomeScreen(props){
@@ -40,7 +40,7 @@ function Login(){
         <p>Login Route</p>
     )
 }`}
-    </pre>
+    -->
     </>
   )
 }

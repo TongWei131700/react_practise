@@ -11,7 +11,7 @@ const CountingBox = forwardRef((props, ref) => {
     return (
     <>
       <textarea value={text} onChange={(e)=>setText(e.target.value)} />
-      <pre>
+      <!--
         {`import {useState,useRef,useImperativeHandle,forwardRef} from 'react';
 
 const CountingBox = forwardRef((props, ref) => {
@@ -48,7 +48,7 @@ function TextEdit(props){
 
 export default TextEdit;
 `}
-      </pre>
+      -->
     </>);
 });
 

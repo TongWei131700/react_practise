@@ -11,7 +11,7 @@ const ExampleComponent = ()=>{
   return(
       <>
     <Heading>Example Heading</Heading>
-    <pre>
+    <!--
         {`import styled from 'styled-components';
 
 const Heading = styled.h1\`
@@ -29,7 +29,7 @@ const ExampleComponent = ()=>{
 
 export default ExampleComponent;
 `}
-    </pre>
+    -->
     </>
   );
 }

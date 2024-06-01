@@ -10,7 +10,7 @@ function RenderCounter(){
     <>
       This component will count how many times it renders.
       <button onClick={()=>setCount((prev)=>prev+1)}>Update State</button>
-      <pre>
+      <!--
         {`import {useEffect,useState} from 'react';
 
 function RenderCounter(){
@@ -28,7 +28,7 @@ function RenderCounter(){
 }
 
 export default RenderCounter;`}
-      </pre>
+      -->
     </>
   );
 }

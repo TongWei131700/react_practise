@@ -7,7 +7,7 @@ function WarningMessage(props){
       <p style={warningStyle}>
         {props.warningMessage}
       </p>
-      <pre>{`function WarningMessage(props){
+      <!--{`function WarningMessage(props){
 
 const warningStyle = {color:"red",padding:"6px",backgroundColor:"#000000"};
 
@@ -19,7 +19,7 @@ return (
 }
 
 export default WarningMessage;
-`}</pre>
+`}-->
 </>
     )
   }

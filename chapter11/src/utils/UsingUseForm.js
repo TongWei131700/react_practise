@@ -17,7 +17,7 @@ return (
   
     <input type="submit" />
   </form>
-  <pre>
+  <!--
     {`import {useForm} from 'react-hook-form';
 
 function SignUpForm() {
@@ -41,7 +41,7 @@ return (
 
 export default SignUpForm;
 `}
-  </pre>
+  -->
   </>
 );
 }

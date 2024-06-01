@@ -26,7 +26,7 @@ function TimerConditionalFun(props){
       <p>
         <button onClick={()=>setGameNumber((prev)=>prev+1)}>New Game</button>
       </p>
-      <pre>
+      <!--
         {`import {useEffect,useState} from 'react';
 
 function TimerConditionalFun(props){
@@ -60,7 +60,7 @@ function TimerConditionalFun(props){
 }
 
 export default TimerConditionalFun;`}
-      </pre>
+      -->
     </>
   );
 }

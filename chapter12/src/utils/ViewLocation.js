@@ -15,7 +15,7 @@ function ViewLocation(props) {
                 <li>key: {props.location.key}</li>
             
             </ul>
-            <pre>
+            <!--
               {`import React from "react";
 import {
   withRouter
@@ -39,7 +39,7 @@ function ViewLocation(props) {
 }
 
 export default withRouter(ViewLocation);`}
-            </pre>
+            -->
           </>
           
       );

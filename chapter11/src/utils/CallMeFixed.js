@@ -33,7 +33,7 @@ function CallMe(props){
       </button>
       <h1>{currentNumber}</h1>
     </form>
-    <pre>
+    <!--
       {`import {useEffect,useState,useRef,useCallback} from 'react';
 
 function CallMe(props){
@@ -75,7 +75,7 @@ function CallMe(props){
 
 export default CallMe;
 `}
-    </pre>
+    -->
     </>
   );
 }

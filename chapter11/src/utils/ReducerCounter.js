@@ -20,7 +20,7 @@ function ReducerCounter() {
       Count: {state.count}
       <button onClick={() => dispatch({type: 'decrement'})}>-</button>
       <button onClick={() => dispatch({type: 'increment'})}>+</button>
-      <pre>
+      <!--
         {`import {useReducer} from 'react';
 
 const initialState = {count: 0};
@@ -49,7 +49,7 @@ function ReducerCounter() {
 
 export default ReducerCounter;
 `}
-      </pre>
+      -->
     </>
   );
 }

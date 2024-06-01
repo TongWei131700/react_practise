@@ -17,7 +17,7 @@ function NumberGuessing(props){
           <input value={guess} type="number" min="1" max="10" onChange={(e)=>setGuess(e.target.value)} />
           <button onClick={checkNumber}>Guess!</button>
           <p>Your score: {score}</p>
-          <pre>
+          <!--
               {`import {useState} from 'react';
 
 function NumberGuessing(props){
@@ -48,7 +48,7 @@ function NumberGuessing(props){
 
 export default NumberGuessing;
 `}
-          </pre>
+          -->
         </>
     )
 }

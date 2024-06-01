@@ -8,7 +8,7 @@ function ButtonContainer(){
     <>
       <MyButton count = {count} setCount = {setCount} /><br />
       count value: {count}
-      <pre>
+      <!--
         {`import {useState} from 'react';
 
 function ButtonContainer(){
@@ -33,7 +33,7 @@ function MyButton(props){
 
 export {ButtonContainer,MyButton};
 `}
-      </pre>
+      -->
     </>
   );
 }

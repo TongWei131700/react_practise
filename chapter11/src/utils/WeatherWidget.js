@@ -20,8 +20,8 @@ function WeatherWidget() {
 
   return (
     <><input type="text" ref={cityRef} /> <button onClick={changeCity}>Change City</button>
-    <pre>{JSON.stringify(data,null,2)}</pre>
-    <pre>
+    <!--{JSON.stringify(data,null,2)}-->
+    <!--
       {`import {useState,useRef} from 'react';
 import useAxios from 'axios-hooks';
 import {API_KEY} from './config';
@@ -41,12 +41,12 @@ function WeatherWidget() {
 
   return (
     <><input type="text" ref={cityRef} /> <button onClick={changeCity}>Change City</button>
-    <pre>{JSON.stringify(data,null,2)}</pre>
+    {/*<{JSON.stringify(data,null,2)}*/}
     </>
   );
 }
 export default WeatherWidget;`}
-    </pre>
+    -->
     </>
   );
 }

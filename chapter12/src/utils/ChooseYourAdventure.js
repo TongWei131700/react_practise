@@ -34,7 +34,7 @@ function ChooseYourAdventure() {
 
       </div>
     </BrowserRouter>
-    <pre>
+    <!--
       {`import React from "react";
 import {LessTraveledPath,MoreTraveledPath} from './PathOptions';
 import {
@@ -75,7 +75,7 @@ function ChooseYourAdventure() {
 
 export default ChooseYourAdventure;
 `}
-    </pre>
+    -->
     </>
   );
 }

@@ -20,7 +20,7 @@ function ShippingAddress2(props){
         State: {state}<br />
 
       </form>
-      <pre>
+      <!--
         {`import {useRef,useState} from 'react';
 import useZipLookup from './useZipLookup';
 
@@ -47,7 +47,7 @@ function ShippingAddress2(props){
 
 export default ShippingAddress2;
 `}
-      </pre>
+      -->
       </>
     )
 }

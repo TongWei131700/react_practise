@@ -19,7 +19,7 @@ function ComponentProp(props) {
                 <Link to="/orders/4">Order #4</Link>
                 <Route path="/orders/:orderid" component={OrderDetails} />
             </Router>
-            <pre>
+            <!--
               {`import React from "react";
 import {
   BrowserRouter as Router, 
@@ -47,7 +47,7 @@ function ComponentProp(props) {
 }
 
 export default ComponentProp;`}
-            </pre>
+            -->
           </>
           
       );

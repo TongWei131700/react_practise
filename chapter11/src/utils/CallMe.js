@@ -30,7 +30,7 @@ function CallMe(props){
         Place Call
       </button>
       <h1>{currentNumber}</h1>
-      <pre>
+      <!--
         {`import {useEffect,useState,useRef} from 'react';
 
 function CallMe(props){
@@ -68,7 +68,7 @@ function CallMe(props){
 }
 
 export default CallMe;`}
-      </pre>
+      -->
     </>
   );
 }

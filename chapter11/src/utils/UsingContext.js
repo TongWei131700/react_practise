@@ -11,7 +11,7 @@ function App() {
       >
         <h1>Welcome to my app.</h1>
       </header>
-      <pre>
+      <!--
           {`import React from 'react';
 import { ThemeContext } from './theme-context'
 
@@ -31,7 +31,7 @@ function App() {
 
 export default App;
 `}
-      </pre>
+      -->
     </>
   )
 }

@@ -16,7 +16,7 @@ function TimerRestartFun(props){
     <><p>Check the console to see the timer.
         <button onClick={()=>setCount((prev)=>prev+1)}>{count}</button>
       </p>
-      <pre>
+      <!--
         {`import {useEffect,useState} from 'react';
 
 function TimerRestartFun(props){
@@ -38,7 +38,7 @@ function TimerRestartFun(props){
 }
 
 export default TimerRestartFun;`}
-      </pre>
+      -->
       </>
       );
 }

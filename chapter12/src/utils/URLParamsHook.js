@@ -15,7 +15,7 @@ function HomeScreen(props){
         <UserProfile />
       </Route>
     </Router>
-    <pre>
+    <!--
         {`import {BrowserRouter as Router, Route} from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
@@ -60,7 +60,7 @@ function UserProfile() {
     );
   }
   `}
-    </pre>
+    -->
     </>
   )
 }

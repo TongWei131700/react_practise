@@ -13,7 +13,7 @@ function TimerFun(props){
     return (
     <>
     <p>Check the console to see the timer.</p>
-    <pre>
+    <!--
       {`import {useEffect} from 'react';
 
 function TimerFun(props){
@@ -30,7 +30,7 @@ function TimerFun(props){
 }
 
 export default TimerFun;`}
-    </pre>
+    -->
     </>);
 }
 
